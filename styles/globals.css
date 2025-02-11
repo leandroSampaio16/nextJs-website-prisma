@@ -1,0 +1,296 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  overflow-y: scroll!important;
+}
+html,body{
+  font-size: 16px;
+}
+
+.fc .fc-col-header-cell-cushion {
+  display: inline-block;
+  padding: 2px 7px;
+
+}
+
+.fc .fc-scrollgrid-liquid {
+  color: black;
+  background: #ffffff;
+  border-radius: 20px;
+}
+
+
+
+.fc .fc-toolbar-title {
+  color: #4682A9;
+  font-family: Arial;
+  font-weight: bold;
+}
+
+@media (min-width: 780px) {
+  .fc .fc-toolbar-title {
+    color: #4682A9;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 1.4em;
+  }
+}
+
+
+@media (min-width: 100px) {
+  .fc .fc-toolbar-title {
+    color: #4682A9;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 1.5em;
+  }
+
+  .fundoCalendario {
+    width: 95vw;
+    padding: 1em !important;
+  }
+}
+
+@media (min-width: 300px) {
+
+  .fundoCalendario {
+    width: 95vw;
+    padding: 1.4em !important;
+  }
+
+}
+
+@media (min-width: 600px) {
+
+  .fundoCalendario {
+    width: 95vw;
+    padding: 2em !important;
+  }
+
+}
+
+@media (min-width: 450px) {
+
+  .fundoCalendario {
+    width: 95vw;
+    padding: 1.7em !important;
+  }
+
+}
+
+@media (max-width: 560px) {
+  .calendario {
+    width: 83vw;
+
+  }
+
+  .fundoCalendario {
+    width: 95vw;
+
+
+  }
+
+  .eventosProximos {
+    display: none;
+  }
+
+  .fc .fc-button {
+    /* Adjust the font size, padding, or any other styles as needed */
+    font-size: 1em;
+
+    padding: 5px;
+    border: 0;
+    border-radius: .5em !important;
+  }
+}
+
+
+@media (max-width: 430px) {
+  .calendario {
+    width: 83vw;
+
+  }
+
+  .fundoCalendario {
+    width: 95vw;
+  }
+
+  .eventosProximos {
+    display: none;
+  }
+
+  .fc .fc-button {
+    /* Adjust the font size, padding, or any other styles as needed */
+    font-size: .75em;
+
+    padding: 5px;
+    border: 0;
+    border-radius: .5em !important;
+  }
+
+  .fc .fc-toolbar-title {
+    color: #4682A9;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 1em;
+  }
+}
+
+
+
+@media (max-width: 330px) {
+  .calendario {
+    width: 83vw;
+
+  }
+
+  .fundoCalendario {
+    width: 95vw;
+  }
+
+  .eventosProximos {
+    display: none;
+  }
+
+  .fc .fc-button {
+    /* Adjust the font size, padding, or any other styles as needed */
+    font-size: .6em;
+
+    padding: 5px;
+    border: 0;
+    border-radius: .5em !important;
+  }
+
+  .fc .fc-toolbar-title {
+    color: #4682A9;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: .75em;
+  }
+}
+
+@media (max-width: 290px) {
+  .calendario {
+    width: 83vw;
+
+  }
+
+  .fundoCalendario {
+    width: 95vw;
+  }
+
+  .eventosProximos {
+    display: none;
+  }
+
+  .fc .fc-button {
+    /* Adjust the font size, padding, or any other styles as needed */
+    font-size: .5em;
+
+    padding: 5px;
+    border: 0;
+    border-radius: .5em !important;
+  }
+
+  .fc .fc-toolbar-title {
+    color: #4682A9;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: .7em;
+  }
+}
+
+
+@media (max-width: 780px) {
+  .calendario {
+    width: 83vw;
+
+  }
+
+  .fundoCalendario {
+    width: 95vw;
+
+  }
+
+
+  .eventosProximos {
+    display: none;
+  }
+
+  .fc .fc-button {
+
+    padding: 5px;
+
+
+  }
+}
+
+@media (min-width: 768px) {
+  .md\:p-0 {
+    padding: 1em !important;
+  }
+}
+
+@media (max-width: 1277px) {
+
+  .eventosProximos {
+    width: 85vw !important;
+    align-content: flex-start !important;
+    justify-content: left !important;
+    height: 40vh !important;
+
+  }
+
+}
+
+/* Large screen size (lg) */
+@media (min-width: 1024px) {
+  .fc .fc-toolbar-title {
+    color: #4682A9;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 1.7em;
+  }
+}
+
+
+
+body {
+  color: #000000;
+  background: #EAEAEA;
+}
+
+
+
+
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.react-datepicker-wrapper,
+.react-datepicker__input-container {
+  display: flex !important;
+  width: 100% !important;
+}
